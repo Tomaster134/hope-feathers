@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: rgb(255, 239, 186);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 239, 186, 1) 0%,
+    rgba(255, 254, 250, 1) 100%
+  );
+}

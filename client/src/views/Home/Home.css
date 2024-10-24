@@ -9,13 +9,13 @@
 
 .home-box {
   margin: 25px;
-  border: 1px white solid;
   height: 900px;
   width: 1200px;
+  border-radius: 8%;
   background-image: url(../../assets/imgs/furnitureBG.jpg);
   background-position: center;
   background-size: cover;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px inset;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px inset, rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .home-welcome {
@@ -35,6 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 8%;
 }
 
 .home-box-title {

@@ -8,8 +8,8 @@ export default function NavBar() {
   const { pathname } = useLocation();
 
   return (
-    <Box sx={{ width: "100%", height: "48px", bgcolor: "whitesmoke" }}>
-      <Avatar src='src\assets\imgs\logo.png' sx={{ height: "32px", width: "32px", position: "absolute", zIndex: 1, margin: "8px"}} variant="square" component={Link} to="/"/>    
+    <Box sx={{ width: "100%", height: "48px", bgcolor: "rgba(255, 255, 220, .6)" ,}}>
+      <Avatar src='src\assets\imgs\logo.png' sx={{ height: "40px", width: "20px", position: "absolute", zIndex: 1, margin: "4px", marginLeft: "10px", opacity: "1"}} variant="square" component={Link} to="/"/>    
       <Tabs value={pathname} centered>
         <Tab label="Home" component={Link} to="/" value="/" />
         <Tab label="Items" component={Link} to="/items" value="/items" />
